@@ -7,12 +7,14 @@
 #  sed '/regex/{x;p;x;}' file.txt  ==> new line above and below target lines
 #  also: sed '/regex/{x;p;x;G;}' file.txt
 
-# cat test.html |\
-sed '/^<p><img/s/^<p>//' test.html |\
+markdown ../Mar20-26.md --template ../template.html |\
+sed '/^<p><img/s/^<p>//' |\
 sed '/^<img/s/<\/p>//' |\
 sed '/^<img/i\
 <div style="display: flex\; align-items: center\; justify-content: center\;">
 ' |\
 sed '/^<img/a\
 </div>
-'
+' > index.html
+
+cp index.html /Library/WebServer/Documents/rumlcomrepo/coronavirus/
