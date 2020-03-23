@@ -1,5 +1,5 @@
 #! /bin/bash
-# March 22, 2020
+# March 22, 2020  invoke with "./imgresize.sh"
 # resize to width of 200 retaining the aspect-ratio;
 # convert example.png -resize 200 example.png
 # https://www.smashingmagazine.com/2015/06/efficient-image-resizing-with-imagemagick/

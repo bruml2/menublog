@@ -1,4 +1,5 @@
 #! /bin/bash
+#  invoke with "./md2html.sh Mar20-26"
 
 # see repo for markdown-to-html: https://github.com/cwjohan/markdown-to-html
 # Note also: pandoc
