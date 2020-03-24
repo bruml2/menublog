@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/bruml2/menublog#readme",
   "dependencies": {
-    "markdown-to-html": "0.0.13"
+    "markdown-to-html": "github:cwjohan/markdown-to-html"
   }
 }
