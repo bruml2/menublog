@@ -1,16 +1,20 @@
 #! /bin/bash
-#  invoke with "./md2html.sh Mar20-26"
+#  March 24, 2020; invoke with "./md2html.sh"
 
 # see repo for markdown-to-html: https://github.com/cwjohan/markdown-to-html
 # Note also: pandoc
 
+# for sed: https://www.grymoire.com/Unix/Sed.html and
+# for REs: https://www.grymoire.com/Unix/Regular.html
+
+MDFILE="Mar20-26"
 echo "Starting conversion"
-markdown $1.md --template template.html > $1.html
+markdown $MDFILE.md --template template.html > $MDFILE.temp.html
+echo "Fixing img tags"
+node fiximgs.js $MDFILE.temp.html > $MDFILE.html
 echo "Finished conversion"
-# cat blogtop.html $1.html blogbottom.html > temp
-# mv temp $1.html
-cp $1.html /Library/WebServer/Documents/rumlcomrepo/coronavirus/
+cp $MDFILE.html /Library/WebServer/Documents/rumlcomrepo/coronavirus/
 echo "Copied html file to rumlcomrepo/coronavirus/"
-cp $1.html /Library/WebServer/Documents/rumlcomrepo/coronavirus/index.html
+cp $MDFILE.html /Library/WebServer/Documents/rumlcomrepo/coronavirus/index.html
 echo "Copied html file to rumlcomrepo/coronavirus/index.html"
 echo "Done"

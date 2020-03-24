@@ -1,0 +1,22 @@
+{
+  "name": "2020menublog",
+  "version": "1.0.0",
+  "description": "Converts markdown to html",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bruml2/menublog.git"
+  },
+  "author": "B Ruml",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bruml2/menublog/issues"
+  },
+  "homepage": "https://github.com/bruml2/menublog#readme",
+  "dependencies": {
+    "markdown-to-html": "0.0.13"
+  }
+}
