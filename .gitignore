@@ -4,8 +4,6 @@
 /imgfinished/
 /imgprocessed/
 /imgwaiting/
-/archive/
 *.jpg
-Mar20-26.html
-Mar20-26.temp.html
+*.temp.html
 package-lock.json

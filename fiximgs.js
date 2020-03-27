@@ -1,4 +1,4 @@
-/* sed.js  -- duplicates sed script to modify html output of markdown conversion */
+/* fiximgs.js  -- executed by md2html.sh to modify img tags */
 // March 24, 2020; invoke with "node fiximgs.js <inputfile>"
 
 const fs = require('fs')
@@ -6,7 +6,8 @@ const readline = require('readline')
 const inputfile = process.argv[2]
 
 const readlnInterface = readline.createInterface({
-  input: fs.createReadStream(inputfile),
+  input: fs.createReadStream(inputfile)
+  // use console.log for output;
   // output: process.stdout
 });
 let changesCount = 0
@@ -15,7 +16,6 @@ let changesCount = 0
 readlnInterface.on('line', function(line) {
   let lineout = line
   // surround img with <div class='pic'></div> rather than <p></p>;
-  // '/^<p><img/s/<\/p>/<\/div>/' -e '/^<p><img/s/^<p>/<div class="pic">/'
   const re1 = /^<p><img/
   let found = line.match(re1)
   if (found) {
@@ -36,7 +36,7 @@ readlnInterface.on('line', function(line) {
   }
   console.log(lineout)
 }).on('close', () => {
-  console.log('EOF: Have a great day!');
+  // console.log('EOF: Have a great day!');
   process.exit(0);
 }).on('error', function (e) {
   console.log("error", e);
