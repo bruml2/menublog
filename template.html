@@ -26,6 +26,10 @@ header {
   height: 10rem;
   background-color: #C11B17; 
 }
+nav {
+  padding: 12px;
+  text-align: center;
+}
 main {
   font-family: Palatino, Georgia, Times, serif;
   font-size: 1.6rem;
@@ -34,8 +38,8 @@ main {
   padding: 2rem;
   border: 2px solid crimson;
 }
-h3 {
-  margin-top: 30px;
+h4 {
+  margin-top: 40px;
   margin-bottom: 10px;
 }
 .pic {
@@ -79,6 +83,17 @@ p + p {
   -moz-text-shadow: 1px 3px 3px #333333;
   text-shadow: 1px 3px 3px #333333;
 }
+.motivation {
+  width: 80%;
+  margin: 5px auto 40px auto;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+}
+footer {
+  margin: 0 auto;
+  padding: 12px;
+  width: 70%;
+}
 </style>
 </head>
 <body>
@@ -86,8 +101,19 @@ p + p {
     <img id="selfjpg" src="Self-villa2013-15k.jpg" />
     <span id="header-title" >Coronavirus Menu Blog</span>    
   </header>
+  <nav>
+    Prior weeks: &nbsp; <a href="Mar20-26.html">Week of March 20-26</a>
+  </nav>
   <main>
+    <div class="motivation">
+      <p><b>Motivation</b>:
+        We're all stuck indoors these days. For us, this means a chance to be more ambitious about what we eat which, in turn, means getting to cook out of those cookbooks which have been too-long ignored. We're particularly anxious to explore James Peterson's <i>Glorious French Food</i>, Joanna Chang's <i>Meyers & Chang At Home</i>, and Dorie Greenspan's <i>Around My French Table</i>.</p>
+      <div style="text-align: center;"><i>Posts are in reverse chronological order!</i></div>
+      </div>
 {markdown}
   </main>
+  <footer>
+    <b>Technical note</b>: The github repository for this blog is https://github.com/bruml2/menublog.  The processing of the images and markdown source file is explained in the README file.
+  </footer>
 </body>
 </html>
