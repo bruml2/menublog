@@ -7,7 +7,7 @@
 # for sed: https://www.grymoire.com/Unix/Sed.html and
 # for REs: https://www.grymoire.com/Unix/Regular.html
 
-MDFILE="Mar27Apr2"
+MDFILE="Apr3-9"
 echo "Starting conversion"
 markdown $MDFILE.md --template template.html > $MDFILE.temp.html
 echo "Fixing img tags"

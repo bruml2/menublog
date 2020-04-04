@@ -1,9 +1,52 @@
+#### Thursday, April 2
+
+We've been enjoying the final amaryllis of the season.
+
+![Lunch Table:50](img2/LunchTableApr2.jpg)
+
+**Lunch**: Here comes that chicken salad!
+
+![Chicken Salad:](img2/ChickenSalad.jpg)
+
+**Dinner**: After our first guacamole in a long time with cocktails
+
+![Guacamole:45](img2/Guacamole.jpg)
+
+we revisited Poland with the aforementioned kielbasa and sauerkraut
+
+![Keilbasa and Sauerkraut:80](img2/KielbasaApr2.jpg)
+
+with a side of the very wonderful frozen french fries we've discovered (Alma Super Crisp Fast Food Fries).
+
+![French Fries:70](img2/FrenchFries.jpg)
+
+#### Wednesday, April 1
+
+Because Deb brought back some blood oranges from Russo's yesterday, we decided that this morning should be a weekend morning with French Toast, bacon and blood orange Mimosas.
+
+![Mimosa:30](img2/Mimosa.jpg)
+
+![French Toast:70](img2/FrenchToast.jpg)
+
+**Lunch**: For lunch we revisited the really superb [Caesar Salad](https://www.bonappetit.com/recipe/classic-caesar-salad) from Bon Appetit. It helps that we found a really excellent source of anchovies at Marty's.
+
+![Caesar Salad:70](img2/CaesarSalad.jpg)
+
+**Dinner**: We finally found the courage to have the third round of the Lamb-Belly-Bacon stirfry from _M&C at Home_, this time with bok choy replacing the beans and leeks. I made certain that the lamb belly was thoroughly crisped before adding the other ingredients and that seemed to be the key.
+
+![Lamb Belly Bacon Stirfry:60](img2/LambBellyStirfry.jpg)
+
+#### Tuesday, March 31
+
+Not much to report for today!  We had some more French onion soup for lunch and couldn't believe how wonderful it was. Deb had done a big shopping in the morning and purchased a chicken in order to finally achieve her longtime ambition of roasting a chicken.  We settled on the classic Hammersley's recipe and, to put it kindly, she made it and we ate it. There'll be plenty of left-over chicken for chicken salad!
+
+![Hammersley's Roast Chicken:70](img2/RoastChicken.jpg)
 
 #### Monday, March 30
 
 Deb went off to Whole Foods early this morning and came home with everything we needed.
 
-**Lunch**: We wanted an appealing way to eat the leftover sauerkraut from last night. What could be better than a Reuben sandwich, a Chicgo specialty: pastrami, sauerkraut and swiss cheese melted in a grilled rye sandwich and eaten with Thousand Island dressing? We used Russian dressing, similar but with some heat!
+**Lunch**: We wanted an appealing way to eat the leftover sauerkraut from last night. What could be better than a Reuben sandwich, a Chicago specialty: pastrami, sauerkraut and swiss cheese melted in a grilled rye sandwich and eaten with Thousand Island dressing? We used Russian dressing, similar but with some heat!
 
 ![Reuben sandwich:80](img2/ReubenSandwich.jpg)
 
@@ -59,6 +102,6 @@ We usually go shopping on Fridays so the menus benefit from new purchases. Not t
 
 ![Sausage & Fennel Orecchiette:70](img2/SausageFennelPasta.jpg)
 
-For dessert I made fataifi rolls, the first time I'd tried to work with this shredded filo.  The package of fataifi had been around the block and was often clumped so the experiment was only partially successful. But the flavor was just what I wanted so I'll be doing this again as soon as we can next shop at Sevan.
+For dessert I made Kataifi rolls, the first time I'd tried to work with this shredded filo.  The package of kataifi had been around the block and was often clumped so the experiment was only partially successful. But the flavor was just what I wanted so I'll be doing this again as soon as we can next shop at Sevan.
 
 ![Fataifi Pastry:60](img2/FataifiPastry.jpg)
