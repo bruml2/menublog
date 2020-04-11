@@ -32,14 +32,14 @@ FDATE=`date +%F`
   mkdir /Users/ruml/Blogs/2020MenuBlog/imgprocessed/$FDATE
 mv /Users/ruml/Blogs/2020MenuBlog/imgwaiting/* \
   /Users/ruml/Blogs/2020MenuBlog/imgprocessed/$FDATE
-echo "Moving from imgfinished to rumlcomrepo/coronavirus/img3 and $FDATE"
+echo "Moving from imgfinished to rumlcomrepo/coronavirus/img4 and $FDATE"
 # make convenience directory for Filezilla transer;
-[ ! -d /Library/WebServer/Documents/rumlcomrepo/coronavirus/img3/$FDATE ] && \
-  mkdir /Library/WebServer/Documents/rumlcomrepo/coronavirus/img3/$FDATE
+[ ! -d /Library/WebServer/Documents/rumlcomrepo/coronavirus/img4/$FDATE ] && \
+  mkdir /Library/WebServer/Documents/rumlcomrepo/coronavirus/img4/$FDATE
 cp /Users/ruml/Blogs/2020MenuBlog/imgfinished/* \
-  /Library/WebServer/Documents/rumlcomrepo/coronavirus/img3/$FDATE
+  /Library/WebServer/Documents/rumlcomrepo/coronavirus/img4/$FDATE
 mv /Users/ruml/Blogs/2020MenuBlog/imgfinished/* \
-  /Library/WebServer/Documents/rumlcomrepo/coronavirus/img3
+  /Library/WebServer/Documents/rumlcomrepo/coronavirus/img4
 # NB: imgwaiting and imgfinished are now empty;
 echo "Done!"
 
