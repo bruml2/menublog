@@ -8,15 +8,15 @@
 # truncating filename extension: ../imgfinished/${file%.*}.png
 
 # check starting conditions: files in imgwaiting; imgfinished empty;
-FILESINWAITING=`ls ~/blogs/2020MenuBlog/imgwaiting | wc -l`
-FILESINFINISHED=`ls ~/blogs/2020MenuBlog/imgfinished | wc -l`
-if [ -d ~/blogs/2020MenuBlog/imgwaiting ] && \
+FILESINWAITING=`ls ~/blogs/MenuBlog2020/imgwaiting | wc -l`
+FILESINFINISHED=`ls ~/blogs/MenuBlog2020/imgfinished | wc -l`
+if [ -d ~/blogs/MenuBlog2020/imgwaiting ] && \
    [$FILESINWAITING > 0 ] && \
-   [ -d ~/blogs/2020MenuBlog/imgfinished ] && \
+   [ -d ~/blogs/MenuBlog2020/imgfinished ] && \
    [$FILESINFINISHED = 0 ]
 then
 echo "resizing images in imgwaiting"
-cd /Users/ruml/Blogs/2020MenuBlog/imgwaiting
+cd /Users/ruml/Blogs/MenuBlog2020/imgwaiting
 # copy waiting files to backup;
 rm ../imgbackup/*
 cp * ../imgbackup
@@ -28,18 +28,18 @@ cd -
 echo "Moving from imgwaiting to imgprocessed"
 FDATE=`date +%F`
 # create the directory if absent;
-[ ! -d /Users/ruml/Blogs/2020MenuBlog/imgprocessed/$FDATE ] && \
-  mkdir /Users/ruml/Blogs/2020MenuBlog/imgprocessed/$FDATE
-mv /Users/ruml/Blogs/2020MenuBlog/imgwaiting/* \
-  /Users/ruml/Blogs/2020MenuBlog/imgprocessed/$FDATE
-echo "Moving from imgfinished to rumlcomrepo/coronavirus/img4 and $FDATE"
+[ ! -d /Users/ruml/Blogs/MenuBlog2020/imgprocessed/$FDATE ] && \
+  mkdir /Users/ruml/Blogs/MenuBlog2020/imgprocessed/$FDATE
+mv /Users/ruml/Blogs/MenuBlog2020/imgwaiting/* \
+  /Users/ruml/Blogs/MenuBlog2020/imgprocessed/$FDATE
+echo "Moving from imgfinished to rumlcomrepo/coronavirus/img9 and $FDATE"
 # make convenience directory for Filezilla transer;
-[ ! -d /Library/WebServer/Documents/rumlcomrepo/coronavirus/img4/$FDATE ] && \
-  mkdir /Library/WebServer/Documents/rumlcomrepo/coronavirus/img4/$FDATE
-cp /Users/ruml/Blogs/2020MenuBlog/imgfinished/* \
-  /Library/WebServer/Documents/rumlcomrepo/coronavirus/img4/$FDATE
-mv /Users/ruml/Blogs/2020MenuBlog/imgfinished/* \
-  /Library/WebServer/Documents/rumlcomrepo/coronavirus/img4
+[ ! -d /Library/WebServer/Documents/rumlcomrepo/coronavirus/img9/$FDATE ] && \
+  mkdir /Library/WebServer/Documents/rumlcomrepo/coronavirus/img9/$FDATE
+cp /Users/ruml/Blogs/MenuBlog2020/imgfinished/* \
+  /Library/WebServer/Documents/rumlcomrepo/coronavirus/img9/$FDATE
+mv /Users/ruml/Blogs/MenuBlog2020/imgfinished/* \
+  /Library/WebServer/Documents/rumlcomrepo/coronavirus/img9
 # NB: imgwaiting and imgfinished are now empty;
 echo "Done!"
 
